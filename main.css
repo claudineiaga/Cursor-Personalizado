@@ -1,0 +1,29 @@
+body{
+    background: #2b5a2f;
+    overflow: hidden;
+}
+#cursor{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgb(237, 241, 5);
+    border-radius: 50%;
+    mix-blend-mode: difference;
+    pointer-events: none;
+    transition: transform .15s ease-in-out;
+}
+section{
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Retangulo{
+    width: 300px;
+    height: 60px;
+    background: white;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(13, 232, 13);
+}
